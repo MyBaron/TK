@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+// 生成的包名
+option java_package="com.tk.monitor.tkserver.message";
+
+//生成的java名
+option java_outer_classname = "MessageVO";
+
+
+//消息
+message Message{
+    Head head=1;
+    Type type=2;
+    Body body=3;
+}
+
+
+message Head {
+
+    // id
+    string id = 1;
+
+    // 版本信息
+    string version = 2;
+
+}
+
+enum Type{
+    //监控信息
+    monitor_command = 0;
+    heart = 1;
+    client = 2;
+}
+
+message Body{
+
+    message Content {
+        //监控类型
+        string type = 1;
+        //监控信息
+        string content = 2 ;
+        //信息类型
+        string property = 3 ;
+    }
+
+    repeated Content content=4;
+}

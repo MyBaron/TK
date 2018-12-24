@@ -1,0 +1,147 @@
+Starting TkServerApplication on baron.local with PID 3941 (/Users/baron/IdeaProjects/tk/tk-server/target/classes started by baron in /Users/baron/IdeaProjects/tk)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3125 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started TkServerApplication in 6.074 seconds (JVM running for 7.604)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+连接的客户端地址：/127.0.0.1:55984
+注册成功-----clientId：njjcmn,clientName：tk-client-1,当前注册的客户端个数为：1
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting TkServerApplication on baron.local with PID 3953 (/Users/baron/IdeaProjects/tk/tk-server/target/classes started by baron in /Users/baron/IdeaProjects/tk)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1968 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started TkServerApplication in 3.603 seconds (JVM running for 4.507)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+连接的客户端地址：/127.0.0.1:56049
+注册成功-----clientId：kbniqw,clientName：tk-client-1,当前注册的客户端个数为：1
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting TkServerApplication on baron.local with PID 3963 (/Users/baron/IdeaProjects/tk/tk-server/target/classes started by baron in /Users/baron/IdeaProjects/tk)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2327 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started TkServerApplication in 4.357 seconds (JVM running for 6.223)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+连接的客户端地址：/127.0.0.1:56123
+注册成功-----clientId：nrbeqe,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56123', conTime=Wed Dec 19 19:27:24 CST 2018, breakTime=Wed Dec 19 19:27:49 CST 2018}
+连接的客户端地址：/127.0.0.1:56133
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56133', conTime=Wed Dec 19 19:27:53 CST 2018, breakTime=null}
+注册成功-----clientId：mzhzey,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56133', conTime=Wed Dec 19 19:27:53 CST 2018, breakTime=Wed Dec 19 19:28:30 CST 2018}
+连接的客户端地址：/127.0.0.1:56152
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56152', conTime=Wed Dec 19 19:28:35 CST 2018, breakTime=null}
+注册成功-----clientId：terdcv,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56152', conTime=Wed Dec 19 19:28:35 CST 2018, breakTime=Wed Dec 19 19:28:54 CST 2018}
+连接的客户端地址：/127.0.0.1:56162
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56162', conTime=Wed Dec 19 19:28:59 CST 2018, breakTime=null}
+注册成功-----clientId：nknqmp,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56162', conTime=Wed Dec 19 19:28:59 CST 2018, breakTime=Wed Dec 19 19:29:37 CST 2018}
+连接的客户端地址：/127.0.0.1:56177
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56177', conTime=Wed Dec 19 19:29:41 CST 2018, breakTime=null}
+注册成功-----clientId：umshqe,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56177', conTime=Wed Dec 19 19:29:41 CST 2018, breakTime=Wed Dec 19 19:30:00 CST 2018}
+连接的客户端地址：/127.0.0.1:56188
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56188', conTime=Wed Dec 19 19:30:05 CST 2018, breakTime=null}
+注册成功-----clientId：psswbk,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56188', conTime=Wed Dec 19 19:30:05 CST 2018, breakTime=Wed Dec 19 19:31:56 CST 2018}
+连接的客户端地址：/127.0.0.1:56222
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56222', conTime=Wed Dec 19 19:32:30 CST 2018, breakTime=null}
+注册成功-----clientId：glzokp,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56222', conTime=Wed Dec 19 19:32:30 CST 2018, breakTime=Wed Dec 19 19:32:45 CST 2018}
+连接的客户端地址：/127.0.0.1:56227
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56227', conTime=Wed Dec 19 19:32:54 CST 2018, breakTime=null}
+注册成功-----clientId：bjxjyb,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56227', conTime=Wed Dec 19 19:32:54 CST 2018, breakTime=Wed Dec 19 19:33:55 CST 2018}
+连接的客户端地址：/127.0.0.1:56235
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56235', conTime=Wed Dec 19 19:33:59 CST 2018, breakTime=null}
+注册成功-----clientId：mahyiv,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56235', conTime=Wed Dec 19 19:33:59 CST 2018, breakTime=Wed Dec 19 19:34:25 CST 2018}
+连接的客户端地址：/127.0.0.1:56248
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56248', conTime=Wed Dec 19 19:35:03 CST 2018, breakTime=null}
+注册成功-----clientId：clvjqn,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56248', conTime=Wed Dec 19 19:35:03 CST 2018, breakTime=Wed Dec 19 19:39:05 CST 2018}
+连接的客户端地址：/127.0.0.1:56333
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56333', conTime=Wed Dec 19 19:39:10 CST 2018, breakTime=null}
+注册成功-----clientId：ywvpvy,clientName：tk-client-1,当前注册的客户端个数为：1
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting TkServerApplication on baron.local with PID 4084 (/Users/baron/IdeaProjects/tk/tk-server/target/classes started by baron in /Users/baron/IdeaProjects/tk)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 98ms. Found 0 repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4838 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started TkServerApplication in 10.373 seconds (JVM running for 11.833)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+连接的客户端地址：/127.0.0.1:56601
+注册成功-----clientId：jnyiim,clientName：tk-client-1,当前注册的客户端个数为：1
+客户端断开了连接
+将客户端放进了断开连接队列：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56601', conTime=Wed Dec 19 20:06:57 CST 2018, breakTime=Wed Dec 19 20:07:45 CST 2018}
+连接的客户端地址：/127.0.0.1:56620
+重新连接的客户端：ClientInfo{ClientName='tk-client-1', ip='/127.0.0.1:56620', conTime=Wed Dec 19 20:07:50 CST 2018, breakTime=null}
+注册成功-----clientId：yowlnz,clientName：tk-client-1,当前注册的客户端个数为：1
+Shutting down ExecutorService 'applicationTaskExecutor'
