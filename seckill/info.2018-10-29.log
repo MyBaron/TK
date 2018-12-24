@@ -1,0 +1,60 @@
+Starting SeckillApplication on baron.local with PID 25442 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f132176: startup date [Mon Oct 29 00:15:06 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f58ef730] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2165 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f132176: startup date [Mon Oct 29 00:15:06 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/checkGoodAll]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/good/createGood]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test()
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/order] onto handler '/order'
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 6.646 seconds (JVM running for 8.332)
+A cookie header was received [@loginType=cooperation; do1qw@coopType=2; stay_login=0; do1qw@loginUrl=http%3A//localhost%3A8080/wxqyh/oem/bit/login.jsp; do1qw@managerLoginurl=http%3A//localhost%3A8080/wxqyh/oem/bit/login.jsp; do1qw@qwwebLoginurl=http%3A//localhost%3A8080/wxqyh/oem/bit/login.jsp; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1538987143,1540534736; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1540534736] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+读取配置文件
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h28m26s49ms).
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f132176: startup date [Mon Oct 29 00:15:06 CST 2018]; root of context hierarchy

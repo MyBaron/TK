@@ -1,0 +1,523 @@
+Starting SeckillApplication on baron.local with PID 7295 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@550a1967: startup date [Fri Nov 09 16:08:05 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ed26fa4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5799 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext com.monitoring.seckill.Util.SpringContextUtil.applicationContext
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@550a1967: startup date [Fri Nov 09 16:08:05 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/checkGoodAll.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/good/createGood.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test() throws java.io.IOException
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createAndPlay.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createAndPlay(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/checkOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.checkOrder(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 14.315 seconds (JVM running for 18.105)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 80 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@550a1967: startup date [Fri Nov 09 16:08:05 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SeckillApplication on baron.local with PID 7723 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56113384: startup date [Fri Nov 09 16:14:31 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de52e7a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3652 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext com.monitoring.seckill.Util.SpringContextUtil.applicationContext
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56113384: startup date [Fri Nov 09 16:14:31 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/checkGoodAll.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/good/createGood.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test() throws java.io.IOException
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createAndPlay.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createAndPlay(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/checkOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.checkOrder(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 10.588 seconds (JVM running for 12.907)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56113384: startup date [Fri Nov 09 16:14:31 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SeckillApplication on baron.local with PID 7969 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@550a1967: startup date [Fri Nov 09 16:28:27 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abf3710] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4293 ms
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Mapping filter: 'cat-filter' to urls: [/*]
+Servlet dispatcherServlet mapped to [/]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext com.monitoring.seckill.Util.SpringContextUtil.applicationContext
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@550a1967: startup date [Fri Nov 09 16:28:27 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/checkGoodAll.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/good/createGood.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test() throws java.io.IOException
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createAndPlay.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createAndPlay(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/checkOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.checkOrder(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 13.526 seconds (JVM running for 16.23)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@550a1967: startup date [Fri Nov 09 16:28:27 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SeckillApplication on baron.local with PID 8450 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4f25b795: startup date [Fri Nov 09 16:46:09 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$359707fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 6867 ms
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Mapping filter: 'cat-filter' to urls: [/*]
+Servlet dispatcherServlet mapped to [/]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext com.monitoring.seckill.Util.SpringContextUtil.applicationContext
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4f25b795: startup date [Fri Nov 09 16:46:09 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/checkGoodAll.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/good/createGood.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test() throws java.io.IOException
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createAndPlay.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createAndPlay(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/checkOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.checkOrder(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 21.973 seconds (JVM running for 27.01)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 107 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4f25b795: startup date [Fri Nov 09 16:46:09 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SeckillApplication on baron.local with PID 8828 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34f22f9d: startup date [Fri Nov 09 17:35:31 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85cfd904] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3696 ms
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Mapping filter: 'cat-filter' to urls: [/*]
+Servlet dispatcherServlet mapped to [/]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext com.monitoring.seckill.Util.SpringContextUtil.applicationContext
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34f22f9d: startup date [Fri Nov 09 17:35:31 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/checkGoodAll.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/good/createGood.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test() throws java.io.IOException
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createAndPlay.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createAndPlay(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/checkOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.checkOrder(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 11.268 seconds (JVM running for 13.585)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34f22f9d: startup date [Fri Nov 09 17:35:31 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SeckillApplication on baron.local with PID 8872 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@362045c0: startup date [Fri Nov 09 17:42:22 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aea4ed38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4817 ms
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Mapping filter: 'cat-filter' to urls: [/*]
+Servlet dispatcherServlet mapped to [/]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext com.monitoring.seckill.Util.SpringContextUtil.applicationContext
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@362045c0: startup date [Fri Nov 09 17:42:22 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/createGood.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/good/checkGoodAll.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test() throws java.io.IOException
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createAndPlay.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createAndPlay(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/checkOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.checkOrder(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 15.815 seconds (JVM running for 18.266)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 84 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@362045c0: startup date [Fri Nov 09 17:42:22 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SeckillApplication on baron.local with PID 8901 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4748a0f9: startup date [Fri Nov 09 17:46:39 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf28929c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4813 ms
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Mapping filter: 'cat-filter' to urls: [/*]
+Servlet dispatcherServlet mapped to [/]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext com.monitoring.seckill.Util.SpringContextUtil.applicationContext
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4748a0f9: startup date [Fri Nov 09 17:46:39 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/checkGoodAll.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/good/createGood.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test() throws java.io.IOException
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createAndPlay.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createAndPlay(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/checkOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.checkOrder(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 13.876 seconds (JVM running for 16.033)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 78 ms
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4748a0f9: startup date [Fri Nov 09 17:46:39 CST 2018]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SeckillApplication on baron.local with PID 8924 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6fb365ed: startup date [Fri Nov 09 17:52:41 CST 2018]; root of context hierarchy
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$619ba54b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4822 ms
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Mapping filter: 'cat-filter' to urls: [/*]
+Servlet dispatcherServlet mapped to [/]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext com.monitoring.seckill.Util.SpringContextUtil.applicationContext
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6fb365ed: startup date [Fri Nov 09 17:52:41 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/good/checkGoodAll.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+Mapped "{[/good/createGood.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test() throws java.io.IOException
+Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/createAndPlay.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createAndPlay(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+Mapped "{[/order/checkOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.checkOrder(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SeckillApplication in 14.498 seconds (JVM running for 17.211)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s525ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h29m50s288ms).
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m44s617ms).

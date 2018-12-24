@@ -1,0 +1,61 @@
+classpath:/classpath:/classpath:/classpath:/classpath:/classpath:/2018-10-29 00:00:33.950  INFO 25027 --- [main] c.monitoring.seckill.SeckillApplication  : Starting SeckillApplication on baron.local with PID 25027 (/Users/baron/IdeaProjects/seckill/target/classes started by baron in /Users/baron/IdeaProjects/seckill)
+2018-10-29 00:00:33.962  INFO 25027 --- [main] c.monitoring.seckill.SeckillApplication  : No active profile set, falling back to default profiles: default
+2018-10-29 00:00:34.098  INFO 25027 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12359a82: startup date [Mon Oct 29 00:00:34 CST 2018]; root of context hierarchy
+2018-10-29 00:00:35.702  INFO 25027 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-10-29 00:00:35.932  INFO 25027 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-10-29 00:00:35.953  INFO 25027 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+2018-10-29 00:00:35.956  INFO 25027 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+2018-10-29 00:00:35.957  INFO 25027 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+2018-10-29 00:00:36.632  INFO 25027 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$faa12f9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-29 00:00:37.172  INFO 25027 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-10-29 00:00:37.202  INFO 25027 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-10-29 00:00:37.203  INFO 25027 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-29 00:00:37.209  INFO 25027 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-10-29 00:00:37.338  INFO 25027 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-10-29 00:00:37.339  INFO 25027 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3241 ms
+2018-10-29 00:00:37.465  INFO 25027 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-10-29 00:00:37.475  INFO 25027 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-29 00:00:37.476  INFO 25027 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-29 00:00:37.476  INFO 25027 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-29 00:00:37.476  INFO 25027 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-29 00:00:37.785  INFO 25027 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-10-29 00:00:38.146  INFO 25027 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-10-29 00:00:38.204  INFO 25027 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-10-29 00:00:38.218  INFO 25027 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-10-29 00:00:38.322  INFO 25027 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-10-29 00:00:38.324  INFO 25027 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-10-29 00:00:38.410  INFO 25027 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-29 00:00:38.594  INFO 25027 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-10-29 00:00:39.228  INFO 25027 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-10-29 00:00:39.820  INFO 25027 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 00:00:40.198  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12359a82: startup date [Mon Oct 29 00:00:34 CST 2018]; root of context hierarchy
+2018-10-29 00:00:40.250  WARN 25027 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-10-29 00:00:40.297  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/good/checkGoodAll]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.checkGoodsAll()
+2018-10-29 00:00:40.300  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/good/createGood]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.GoodCtl.createGood(com.monitoring.seckill.Entity.MonGood)
+2018-10-29 00:00:40.302  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/test]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.test()
+2018-10-29 00:00:40.303  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/login]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.LoginCtl.login(com.monitoring.seckill.Entity.MonUser,javax.servlet.http.HttpServletRequest)
+2018-10-29 00:00:40.304  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/createOrder.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.createOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-10-29 00:00:40.304  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/play.do]}" onto public com.monitoring.seckill.Entity.Result com.monitoring.seckill.Controller.OrderCtl.playOrder(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-10-29 00:00:40.307  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-29 00:00:40.309  INFO 25027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-29 00:00:40.339  INFO 25027 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/order] onto handler '/order'
+2018-10-29 00:00:40.352  INFO 25027 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 00:00:40.352  INFO 25027 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 00:00:41.145  INFO 25027 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-29 00:00:41.148  INFO 25027 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-29 00:00:41.158  INFO 25027 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-10-29 00:00:41.222  INFO 25027 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-10-29 00:00:41.229  INFO 25027 --- [main] c.monitoring.seckill.SeckillApplication  : Started SeckillApplication in 8.367 seconds (JVM running for 10.182)
+2018-10-29 00:04:32.207  INFO 25027 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [@loginType=cooperation; do1qw@coopType=2; stay_login=0; do1qw@loginUrl=http%3A//localhost%3A8080/wxqyh/oem/bit/login.jsp; do1qw@managerLoginurl=http%3A//localhost%3A8080/wxqyh/oem/bit/login.jsp; do1qw@qwwebLoginurl=http%3A//localhost%3A8080/wxqyh/oem/bit/login.jsp; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1538987143,1540534736; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1540534736] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2018-10-29 00:04:32.223  INFO 25027 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-29 00:04:32.224  INFO 25027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-29 00:04:32.266  INFO 25027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+2018-10-29 00:04:32.320  INFO 25027 --- [http-nio-8080-exec-1] c.m.seckill.Util.PropertiesUtil          : 读取配置文件
+2018-10-29 00:15:01.877  INFO 25027 --- [Thread-20] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12359a82: startup date [Mon Oct 29 00:00:34 CST 2018]; root of context hierarchy
+2018-10-29 00:15:02.179  INFO 25027 --- [Thread-20] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-10-29 00:15:02.180  INFO 25027 --- [Thread-20] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-10-29 00:15:02.182  INFO 25027 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-10-29 00:15:02.185  INFO 25027 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-10-29 00:15:02.194  INFO 25027 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
