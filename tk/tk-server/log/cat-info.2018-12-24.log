@@ -1,0 +1,276 @@
+Starting ESConfigTest on baron.local with PID 22559 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 193ms. Found 0 repository interfaces.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in class path resource [com/tk/monitor/tkserver/es/config/ESConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.elasticsearch.client.transport.TransportClient]: Factory method 'client' threw exception; nested exception is java.lang.NoClassDefFoundError: org/elasticsearch/script/ScriptEngineService
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting ESConfigTest on baron.local with PID 22565 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 152ms. Found 0 repository interfaces.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in class path resource [com/tk/monitor/tkserver/es/config/ESConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.elasticsearch.client.transport.TransportClient]: Factory method 'client' threw exception; nested exception is java.lang.NoClassDefFoundError: org/elasticsearch/script/ScriptEngineService
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting ESConfigTest on baron.local with PID 22569 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 70ms. Found 0 repository interfaces.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in class path resource [com/tk/monitor/tkserver/es/config/ESConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.elasticsearch.client.transport.TransportClient]: Factory method 'client' threw exception; nested exception is java.lang.NoClassDefFoundError: org/elasticsearch/script/ScriptEngineService
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting ESConfigTest on baron.local with PID 22625 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 83ms. Found 0 repository interfaces.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in class path resource [com/tk/monitor/tkserver/es/config/ESConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.elasticsearch.client.transport.TransportClient]: Factory method 'client' threw exception; nested exception is java.lang.NoClassDefFoundError: org/elasticsearch/script/ScriptEngineService
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting ESConfigTest on baron.local with PID 22684 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 41.164 seconds (JVM running for 47.074)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 22692 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 15.725 seconds (JVM running for 18.925)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 22701 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 106ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 10.764 seconds (JVM running for 13.522)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 22720 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 98ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 12.991 seconds (JVM running for 16.53)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 22735 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 75ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 12.293 seconds (JVM running for 15.843)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 22764 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 74ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 12.239 seconds (JVM running for 16.542)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 22792 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 68ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 12.087 seconds (JVM running for 16.083)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 22931 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 88ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 14.227 seconds (JVM running for 20.666)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 22991 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in class path resource [com/tk/monitor/tkserver/es/config/ESConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.elasticsearch.client.transport.TransportClient]: Factory method 'client' threw exception; nested exception is java.lang.NoClassDefFoundError: org/elasticsearch/script/ScriptEngineService
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting ESConfigTest on baron.local with PID 22999 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 74ms. Found 0 repository interfaces.
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 8.451 seconds (JVM running for 11.847)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 23173 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 10.461 seconds (JVM running for 13.528)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 23180 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 10.369 seconds (JVM running for 12.505)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 23188 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 8.41 seconds (JVM running for 10.467)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting ESConfigTest on baron.local with PID 23199 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 66ms. Found 0 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+Adding transport node : 127.0.0.1:9300
+Initializing ExecutorService 'applicationTaskExecutor'
+Started ESConfigTest in 10.207 seconds (JVM running for 12.94)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
