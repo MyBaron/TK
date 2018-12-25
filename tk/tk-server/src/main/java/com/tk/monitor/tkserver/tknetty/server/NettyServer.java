@@ -40,15 +40,12 @@ public class NettyServer  implements ApplicationRunner {
             ChannelFuture future = bootstrap.bind(port).sync();
             // 监听服务器关闭监听
             log.info("netty服务器启动完成");
-            future.channel().closeFuture().sync();
+//            future.channel().closeFuture().sync();
         } catch (InterruptedException e) {
-            e.printStackTrace();
-        }finally {
             boss.shutdownGracefully();
             work.shutdownGracefully();
+            log.info("netty服务器发生异常",e);
         }
-
-
     }
 
     @Override
