@@ -34,7 +34,7 @@ public class ClientHandler extends SimpleChannelInboundHandler<Object> {
 
 
     public static void sendMessage(MessageBody messageBody) {
-        if (!Objects.isNull(context)) {
+        if (Objects.nonNull(context)) {
             MessageVO.Message build = MessageBuild.build(messageBody);
             context.writeAndFlush(build);
         }else {
@@ -49,14 +49,13 @@ public class ClientHandler extends SimpleChannelInboundHandler<Object> {
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         log.info("建立连接时：" + new Date());
         //第一次连接 发送client注册
-        Client client = TK.clientBuild();
+        context = ctx;
         MessageBody messageBody = new MessageBody();
         messageBody.setType(DicEnum.client.getType());
         messageBody.setProperty("client");
         messageBody.setContent(JSONObject.toJSONString(TK.clientBuild()));
         MessageVO.Message clientMsg = MessageBuild.buildLogion(messageBody);
         ctx.writeAndFlush(clientMsg);
-        context = ctx;
 //        submit = executorService.submit(new MessageSendThread(ctx));
     }
 

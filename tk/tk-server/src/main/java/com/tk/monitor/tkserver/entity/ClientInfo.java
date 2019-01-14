@@ -8,6 +8,12 @@ import java.util.concurrent.TimeUnit;
 
 public class ClientInfo  implements Delayed {
 
+
+    /**
+     *  channelId
+     */
+    private String id;
+
     /**
      * 客户端名称
      */
@@ -28,6 +34,14 @@ public class ClientInfo  implements Delayed {
      */
     private Date breakTime;
 
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getClientName() {
         return ClientName;

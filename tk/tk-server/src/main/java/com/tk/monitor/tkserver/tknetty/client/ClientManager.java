@@ -1,10 +1,18 @@
 package com.tk.monitor.tkserver.tknetty.client;
 
 import com.tk.monitor.tkserver.entity.ClientInfo;
+import com.tk.monitor.tkserver.entity.Message;
+import com.tk.monitor.tkserver.es.util.BulkProcessorUtil;
+import com.tk.monitor.tkserver.message.ContentEnum;
+import com.tk.monitor.tkserver.message.MessageEnum;
+import com.tk.monitor.tkserver.message.MessageManager;
 import io.netty.util.AttributeKey;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Date;
+import java.util.Iterator;
+import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.DelayQueue;
 
@@ -26,19 +34,6 @@ public class ClientManager {
      */
     public static DelayQueue<ClientInfo> deadClientQueue = new DelayQueue<>();
 
-    /**
-     * 放进客户端注册队列
-     * @param clientInfo
-     */
-    public static String putRegistList(ClientInfo clientInfo) {
-        String clientId = randomStr();
-        registClientList.put(clientId, clientInfo);
-        //从断开队列中移除重新连接的客户度
-        if (removeDeadQueue(clientInfo)) {
-            log.info("重新连接的客户端：{}",clientInfo);
-        }
-        return clientId;
-    }
 
     public static ConcurrentHashMap<String, ClientInfo> getRegistClientList() {
         return registClientList;
@@ -48,12 +43,53 @@ public class ClientManager {
         ClientManager.registClientList = registClientList;
     }
 
+
+    /**
+     * 放进客户端注册队列
+     * @param clientInfo
+     */
+    public static String putRegistList(ClientInfo clientInfo) {
+        String clientId;
+        //从断开队列中移除重新连接的客户度
+        ClientInfo breakClient;
+        if (Objects.nonNull(breakClient=hasDeadQueue(clientInfo))) {
+            log.info("重新连接的客户端：{}", breakClient);
+            clientId=breakClient.getId();
+            //放入es消息队列
+            clientInfo.setConTime(new Date());
+            Message message = new Message();
+            message.setType(ContentEnum.RESTCONNECT.getType());
+            message.setClientInfo(clientInfo);
+            message.setProperty("info");
+            BulkProcessorUtil.insertData(message, MessageEnum.CONNECT);
+        }else {
+            clientId = randomStr();
+        }
+        clientInfo.setId(clientId);
+        registClientList.put(clientId, clientInfo);
+        return clientId;
+    }
+
+    /**
+     * 获取客户端数据
+     * @param key
+     * @return
+     */
+    public static ClientInfo getClientInfo(String key) {
+        if (Objects.isNull(key)) {
+            return null;
+        }
+        return registClientList.get(key);
+    }
     /**
      * 放进客户端断开队列
      * @param clientInfo
      */
     public static void putDeadQueue(ClientInfo clientInfo) {
         deadClientQueue.add(clientInfo);
+        Message message = new Message();
+        message.setClientInfo(clientInfo);
+
     }
 
     /**
@@ -64,6 +100,20 @@ public class ClientManager {
      */
     public static boolean removeDeadQueue(ClientInfo clientInfo) {
         return deadClientQueue.remove(clientInfo);
+    }
+
+
+    public static ClientInfo hasDeadQueue(ClientInfo clientInfo) {
+        Iterator<ClientInfo> iterator = deadClientQueue.iterator();
+        while (iterator.hasNext()) {
+            ClientInfo breakClient = iterator.next();
+            if (breakClient.equals(clientInfo)) {
+                //重连，移出队列
+                removeDeadQueue(clientInfo);
+                return breakClient;
+            }
+        }
+        return null;
     }
 
     /**

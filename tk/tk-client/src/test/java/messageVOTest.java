@@ -1,10 +1,13 @@
 import com.tk.monitor.tkclient.message.MessageVO;
+import org.apache.commons.lang3.builder.ToStringExclude;
+import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.UUID;
 
 public class messageVOTest {
@@ -52,5 +55,16 @@ public class messageVOTest {
         System.out.println("head:" + me.getHead());
         System.out.println("type:" + me.getType());
         System.out.println("body:" + me.getBody());
+    }
+
+
+    @Test
+    public void testRandom() {
+        Random random = new Random();
+        for (int i=0;i<30;i++) {
+            int k = random.nextInt(7);
+            System.out.println(k);
+        }
+
     }
 }

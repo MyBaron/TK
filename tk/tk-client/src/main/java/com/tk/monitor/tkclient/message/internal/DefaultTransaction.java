@@ -75,19 +75,22 @@ public class DefaultTransaction implements Transaction {
     }
 
     @Override
-    public void complete(String property) {
+    public void complete(String property,String reason) {
         //放到List<messageBody>中
         //统计时间
         Map<String, Object> jsonMap = new HashMap();
         MessageBody messageBody = new MessageBody();
         long longTime = new Date().getTime() - startTime.getTime();
+        endTime = new Date();
         jsonMap.put("time", longTime);
         jsonMap.put("startTime", startTime.getTime());
         jsonMap.put("endTime", endTime);
         jsonMap.put("url", URL);
+        jsonMap.put("reason", reason);
         messageBody.setType(type);
         messageBody.setProperty(property);
         messageBody.setContent(JSONObject.toJSONString(jsonMap));
         ClientHandler.sendMessage(messageBody);
     }
+
 }

@@ -13,6 +13,8 @@ import io.netty.util.concurrent.GenericFutureListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Random;
+import java.util.UUID;
 import java.util.concurrent.ThreadFactory;
 
 public class NettyClient {
@@ -54,7 +56,7 @@ public class NettyClient {
     public static void main(String[] args) {
         TK.initialize();
         client(TK.ktConfig.getPort(),TK.ktConfig.getAddress());
-       for (int i=0;i<30;i++) {
+       for (int i=0;i<10;i++) {
            Thread t = new Thread(new task("线程" + i));
            t.start();
        }
@@ -75,14 +77,26 @@ public class NettyClient {
 
         @Override
         public void run() {
-            for (int i=0;i<10000;i++) {
-                Transaction tran = TK.newTransaction("URL", "order/idnex.html");
+            String[] URLs = new String[8];
+            URLs[0] = "order/index.html";
+            URLs[1] = "user/login.do";
+            URLs[2] = "order/createOrder.do";
+            URLs[3] = "order/createAndPlay.do";
+            URLs[4] = "order/play.do";
+            URLs[5] = "order/checkOrder.do";
+            URLs[6] = "good/checkGoodAll.do";
+            URLs[7] = "good/createAndPlay.do";
+            Random random = new Random();
+            for (int i=0;i<1000;i++) {
+                int number = random.nextInt(5)+2;
+                Transaction tran = TK.newTransaction("URL", URLs[5]);
                 try {
-                    Thread.sleep(123);
+                    int t = new Random().nextInt(500) + 400;
+                    Thread.sleep(t);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                tran.complete("线程"+name+"：第"+i+"次消息");
+                tran.complete("info",null);
             }
         }
     }

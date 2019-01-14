@@ -2,6 +2,11 @@ package com.tk.monitor.tkserver.tknetty.server;
 
 import com.alibaba.fastjson.JSONObject;
 import com.tk.monitor.tkserver.entity.ClientInfo;
+import com.tk.monitor.tkserver.entity.Message;
+import com.tk.monitor.tkserver.entity.messageLogData.UrlLogData;
+import com.tk.monitor.tkserver.es.util.BulkProcessorUtil;
+import com.tk.monitor.tkserver.message.ContentEnum;
+import com.tk.monitor.tkserver.message.MessageManager;
 import com.tk.monitor.tkserver.message.MessageVO;
 import com.tk.monitor.tkserver.tknetty.client.ClientManager;
 import io.netty.channel.Channel;
@@ -28,8 +33,27 @@ public class ServerHandler extends SimpleChannelInboundHandler<MessageVO.Message
         }else if(MessageVO.Type.client.equals(msg.getType())){
             createClientInfo(msg, ctx.channel());
         }else if (MessageVO.Type.monitor_command.equals(msg.getType())) {
-            System.out.println("this is monitor");
-            prient(msg);
+            insertUrlLogData(msg,ctx.channel());
+        }
+    }
+
+
+    /**
+     * 放到es队列中
+     * @param msg
+     * @param channel
+     */
+    private void insertUrlLogData(MessageVO.Message msg,Channel channel) {
+        List<MessageVO.Body.Content> contentList =
+                msg.getBody().getContentList();
+        //正常只有一条消息
+        MessageVO.Body.Content content = contentList.get(0);
+        String id = channel.attr(ClientManager.attrClientId).get();
+        //是URL类型的信息
+        if (Objects.nonNull(content) && Objects.nonNull(id)) {
+            MessageManager.messageBuild(id, content);
+        } else {
+            log.error("消息载体或者id为Null,Message={},channelId={}", msg, id);
         }
     }
 
@@ -50,13 +74,17 @@ public class ServerHandler extends SimpleChannelInboundHandler<MessageVO.Message
                     JSONObject.parseObject(content.getContent())
                     .getString("clientName"));
             clientInfo.setIp(channel.remoteAddress().toString());
+            //放到注册队列中
+            String clientId = ClientManager.putRegistList(clientInfo);
+            //给这个管道绑定一个clientId
+            channel.attr(ClientManager.attrClientId).set(clientId);
+            log.info("注册成功-----clientId：{},clientName：{},当前注册的客户端个数为：{}",clientId,clientInfo.getClientName(),
+                    ClientManager.registClientList.size());
+        }else {
+            log.error("注册失败 ----- Content为null，将会关闭通道");
+            //关闭通道
+            channel.close();
         }
-        //放到注册队列中
-        String clientId = ClientManager.putRegistList(clientInfo);
-        //给这个管道绑定一个clientId
-        channel.attr(ClientManager.attrClientId).set(clientId);
-        log.info("注册成功-----clientId：{},clientName：{},当前注册的客户端个数为：{}",clientId,clientInfo.getClientName(),
-                ClientManager.registClientList.size());
     }
 
     private void prient(MessageVO.Message msg) {
