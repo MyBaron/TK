@@ -12,6 +12,7 @@ public class MonUser {
   private String account;
   private String password;
   private String userName;
+  private String roles;
   private long money;
 
 
@@ -59,4 +60,11 @@ public class MonUser {
     this.money = money;
   }
 
+  public String getRoles() {
+    return roles;
+  }
+
+  public void setRoles(String roles) {
+    this.roles = roles;
+  }
 }

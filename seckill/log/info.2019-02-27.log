@@ -1,0 +1,954 @@
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Pausing ProtocolHandler ["http-nio-8080"]
+Stopping service [Tomcat]
+The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+Stopping ProtocolHandler ["http-nio-8080"]
+Destroying ProtocolHandler ["http-nio-8080"]
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Pausing ProtocolHandler ["http-nio-8080"]
+Stopping service [Tomcat]
+The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+Stopping ProtocolHandler ["http-nio-8080"]
+Destroying ProtocolHandler ["http-nio-8080"]
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=85A42373708D8BEBA5F1DA16EFB3A39F] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=9701E949BAC119D1B39388D77BDC7DC5] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; JSESSIONID=596DAB72830AB63F699B71A26DECA9E5] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=3E58D323C5C85CBCFA89B64CC20FF1C3] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=9B74E97F8D0F0F464E1EA0202B23823B] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=498D8DE1265E8C1F6E5C137CDD971A34] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=2593B0A9837214507EE92151E7BB272A] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=D35C5B5B3D65F3EBC88AEA67FC7B862A] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=BED4EB926D5BFCBC693A734C02D2AA5B] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=1C36C5D4968233C0CA17A7EBA367C34F] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=5B73B3954259EEE0DD9D781FA05D0D88] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=5B73B3954259EEE0DD9D781FA05D0D88] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=49CCB974BC4928C67E79662701FA9023] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=1E28A61D4E16ACCF19B86F7F414BF331] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=7305DDDCB1D829FD8FF0EAFF5565F0A6] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=DDA92BD80313D74F58D89F06E76E7DEA] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=6B8A6269AAFBB826A5B22516FA05583E] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=E1EDA32E3BC7FB38F429E16EA4DCC36E] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=91B7A36873E01C9994548A12B8258052] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问preHandle
+正在访问preHandle
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=B3EAB510015C45B84A2C9852E8BFFB00] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=0F1B8A822D65E7CF5859AF085A9E27E4] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+{dataSource-1} closed
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.GoodDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.OrderLogDao.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.monitoring.seckill.Dao.UserDao.
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baron/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Init DruidDataSource
+{dataSource-1} inited
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+A cookie header was received [@coopType=2; Hm_lvt_6abcc5eeee320072f7a9ed10e79be5c1=1547777100,1548726749,1550127541; Hm_lpvt_6abcc5eeee320072f7a9ed10e79be5c1=1550214725; Idea-97387ff5=1beb997e-6a2a-4b81-99a2-fb252495de6e; JSESSIONID=492AE03E8FDAAF7DD4DDDA3E7642D0EE] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+HHH000397: Using ASTQueryTranslatorFactory
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问preHandle
+正在访问preHandle
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问afterCompletion
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
+正在访问preHandle
+正在访问postHandle
+正在访问afterCompletion
