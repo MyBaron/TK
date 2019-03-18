@@ -18,20 +18,24 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassRelativeResourceLoader;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
+import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @RequestMapping("/user")
-@RestController
+@Controller
 public class LoginCtl {
 
 
@@ -49,6 +53,13 @@ public class LoginCtl {
             return ResultVO.success("登录成功");
         }
         return ResultVO.error();
+    }
+
+
+    @RequestMapping("/authentication/require")
+    public ModelAndView require(HttpServletRequest request, HttpServletResponse response, Map<String, Object> map) {
+        System.out.println("login");
+        return new ModelAndView("login", map);
     }
 
 

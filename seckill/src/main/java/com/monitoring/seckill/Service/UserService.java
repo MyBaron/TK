@@ -14,4 +14,6 @@ public interface UserService {
     Optional<MonUser> findById(String userId);
 
     MonUser update(MonUser monUser);
+
+    MonUser save(MonUser monUser);
 }

@@ -5,6 +5,7 @@ import com.monitoring.seckill.Entity.MonUser;
 import com.monitoring.seckill.Service.UserService;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
@@ -40,5 +41,15 @@ public class UserServiceImpl implements UserService {
         }
         return userDao.save(monUser);
 
+    }
+
+    @Override
+    public MonUser save(MonUser monUser) {
+        String password = monUser.getPassword();
+        String encode = new BCryptPasswordEncoder().encode(password);
+        System.out.println("加密后的密码"+encode);
+        monUser.setPassword(encode);
+        userDao.save(monUser);
+        return null;
     }
 }

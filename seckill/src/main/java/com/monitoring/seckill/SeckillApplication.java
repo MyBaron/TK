@@ -1,5 +1,6 @@
 package com.monitoring.seckill;
 
+import com.monitoring.seckill.Util.redis.JedisClusterFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
