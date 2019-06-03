@@ -1,0 +1,251 @@
+2019-03-04 14:43:56.115 [main] DEBUG druid.sql.Connection - {conn-10001} connected
+2019-03-04 14:43:56.121 [main] DEBUG druid.sql.Connection - {conn-10002} connected
+2019-03-04 14:43:56.128 [main] DEBUG druid.sql.Connection - {conn-10003} connected
+2019-03-04 14:43:56.135 [main] DEBUG druid.sql.Connection - {conn-10004} connected
+2019-03-04 14:43:56.144 [main] DEBUG druid.sql.Connection - {conn-10005} connected
+2019-03-04 14:43:56.149 [main] DEBUG druid.sql.Connection - {conn-10006} connected
+2019-03-04 14:43:56.158 [main] DEBUG druid.sql.Connection - {conn-10007} connected
+2019-03-04 14:43:56.162 [main] DEBUG druid.sql.Connection - {conn-10008} connected
+2019-03-04 14:43:56.184 [main] DEBUG druid.sql.Connection - {conn-10009} connected
+2019-03-04 14:43:56.193 [main] DEBUG druid.sql.Connection - {conn-10010} connected
+2019-03-04 14:43:56.201 [main] DEBUG druid.sql.Connection - {conn-10011} connected
+2019-03-04 14:43:56.212 [main] DEBUG druid.sql.Connection - {conn-10012} connected
+2019-03-04 14:43:56.219 [main] DEBUG druid.sql.Connection - {conn-10013} connected
+2019-03-04 14:43:56.222 [main] DEBUG druid.sql.Connection - {conn-10014} connected
+2019-03-04 14:43:56.230 [main] DEBUG druid.sql.Connection - {conn-10015} connected
+2019-03-04 14:43:56.239 [main] DEBUG druid.sql.Connection - {conn-10016} connected
+2019-03-04 14:43:56.248 [main] DEBUG druid.sql.Connection - {conn-10017} connected
+2019-03-04 14:43:56.254 [main] DEBUG druid.sql.Connection - {conn-10018} connected
+2019-03-04 14:43:56.265 [main] DEBUG druid.sql.Connection - {conn-10019} connected
+2019-03-04 14:43:56.270 [main] DEBUG druid.sql.Connection - {conn-10020} connected
+2019-03-04 14:43:56.275 [main] DEBUG druid.sql.Connection - {conn-10021} connected
+2019-03-04 14:43:56.282 [main] DEBUG druid.sql.Connection - {conn-10022} connected
+2019-03-04 14:43:56.287 [main] DEBUG druid.sql.Connection - {conn-10023} connected
+2019-03-04 14:43:56.293 [main] DEBUG druid.sql.Connection - {conn-10024} connected
+2019-03-04 14:43:56.301 [main] DEBUG druid.sql.Connection - {conn-10025} connected
+2019-03-04 14:43:56.308 [main] DEBUG druid.sql.Connection - {conn-10026} connected
+2019-03-04 14:43:56.314 [main] DEBUG druid.sql.Connection - {conn-10027} connected
+2019-03-04 14:43:56.319 [main] DEBUG druid.sql.Connection - {conn-10028} connected
+2019-03-04 14:43:56.325 [main] DEBUG druid.sql.Connection - {conn-10029} connected
+2019-03-04 14:43:56.329 [main] DEBUG druid.sql.Connection - {conn-10030} connected
+2019-03-04 14:43:56.486 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 14:43:56.488 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 14:43:56.501 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 14:43:56.505 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 14:43:57.297 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 14:43:57.382 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 14:43:58.469 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 14:43:58.469 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 14:44:12.563 [http-nio-8080-exec-1] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 14:44:12.563 [http-nio-8080-exec-1] DEBUG druid.sql.Connection - {conn-10030} setAutoCommit false
+2019-03-04 14:44:12.675 [http-nio-8080-exec-1] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000} created. insert into mon_user (account, money, password, roles, user_name, id) values (?, ?, ?, ?, ?, ?)
+2019-03-04 14:44:12.688 [http-nio-8080-exec-1] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000} Parameters : [user, 10000, $2a$10$JowiHie6amOaVEJDSPUUx.btgWDszMzSNGbZglH2WRan2C6.OupTm, role, 加密账号1, 4028989b694771da0169477214ae0000]
+2019-03-04 14:44:12.688 [http-nio-8080-exec-1] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000} Types : [VARCHAR, BIGINT, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+2019-03-04 14:44:12.722 [http-nio-8080-exec-1] DEBUG druid.sql.Connection - {conn 10030} rollback
+2019-03-04 14:44:12.722 [http-nio-8080-exec-1] DEBUG druid.sql.Connection - {conn-10030} setAutoCommit true
+2019-03-04 14:44:12.747 [http-nio-8080-exec-1] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 14:44:51.813 [http-nio-8080-exec-3] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 14:44:51.814 [http-nio-8080-exec-3] DEBUG druid.sql.Connection - {conn-10030} setAutoCommit false
+2019-03-04 14:44:51.816 [http-nio-8080-exec-3] DEBUG druid.sql.Statement - {conn-10030, pstmt-20001} created. insert into mon_user (account, money, password, roles, user_name, id) values (?, ?, ?, ?, ?, ?)
+2019-03-04 14:44:51.816 [http-nio-8080-exec-3] DEBUG druid.sql.Statement - {conn-10030, pstmt-20001} Parameters : [user, 10000, $2a$10$K5TYOy52VpldhtNJHpvwe.cdId009xhqA1g0RUReLmCQaZURQ0cei, role, 加密账号1, 4028989b694771da01694772ade70001]
+2019-03-04 14:44:51.816 [http-nio-8080-exec-3] DEBUG druid.sql.Statement - {conn-10030, pstmt-20001} Types : [VARCHAR, BIGINT, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+2019-03-04 14:44:51.820 [http-nio-8080-exec-3] DEBUG druid.sql.Statement - {conn-10030, pstmt-20001} update executed. effort 1. 4.120522 millis. insert into mon_user (account, money, password, roles, user_name, id) values (?, ?, ?, ?, ?, ?)
+2019-03-04 14:44:51.830 [http-nio-8080-exec-3] DEBUG druid.sql.Connection - {conn-10030} commited
+2019-03-04 14:44:51.830 [http-nio-8080-exec-3] DEBUG druid.sql.Connection - {conn-10030} setAutoCommit true
+2019-03-04 14:44:52.012 [http-nio-8080-exec-3] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 14:46:52.062 [http-nio-8080-exec-9] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 14:46:52.062 [http-nio-8080-exec-9] DEBUG druid.sql.Statement - {conn-10030, pstmt-20002} created. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 14:46:52.064 [http-nio-8080-exec-9] DEBUG druid.sql.Statement - {conn-10030, pstmt-20002} Parameters : [user]
+2019-03-04 14:46:52.064 [http-nio-8080-exec-9] DEBUG druid.sql.Statement - {conn-10030, pstmt-20002} Types : [VARCHAR]
+2019-03-04 14:46:52.072 [http-nio-8080-exec-9] DEBUG druid.sql.Statement - {conn-10030, pstmt-20002, rs-50000} query executed. 7.625715 millis. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 14:46:52.084 [http-nio-8080-exec-9] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 15:03:24.426 [Thread-33] DEBUG druid.sql.Connection - {conn-10001} closed
+2019-03-04 15:03:24.428 [Thread-33] DEBUG druid.sql.Connection - {conn-10002} closed
+2019-03-04 15:03:24.429 [Thread-33] DEBUG druid.sql.Connection - {conn-10003} closed
+2019-03-04 15:03:24.430 [Thread-33] DEBUG druid.sql.Connection - {conn-10004} closed
+2019-03-04 15:03:24.431 [Thread-33] DEBUG druid.sql.Connection - {conn-10005} closed
+2019-03-04 15:03:24.432 [Thread-33] DEBUG druid.sql.Connection - {conn-10006} closed
+2019-03-04 15:03:24.433 [Thread-33] DEBUG druid.sql.Connection - {conn-10007} closed
+2019-03-04 15:03:24.433 [Thread-33] DEBUG druid.sql.Connection - {conn-10008} closed
+2019-03-04 15:03:24.434 [Thread-33] DEBUG druid.sql.Connection - {conn-10009} closed
+2019-03-04 15:03:24.435 [Thread-33] DEBUG druid.sql.Connection - {conn-10010} closed
+2019-03-04 15:03:24.435 [Thread-33] DEBUG druid.sql.Connection - {conn-10011} closed
+2019-03-04 15:03:24.436 [Thread-33] DEBUG druid.sql.Connection - {conn-10012} closed
+2019-03-04 15:03:24.437 [Thread-33] DEBUG druid.sql.Connection - {conn-10013} closed
+2019-03-04 15:03:24.437 [Thread-33] DEBUG druid.sql.Connection - {conn-10014} closed
+2019-03-04 15:03:24.438 [Thread-33] DEBUG druid.sql.Connection - {conn-10015} closed
+2019-03-04 15:03:24.439 [Thread-33] DEBUG druid.sql.Connection - {conn-10016} closed
+2019-03-04 15:03:24.440 [Thread-33] DEBUG druid.sql.Connection - {conn-10017} closed
+2019-03-04 15:03:24.441 [Thread-33] DEBUG druid.sql.Connection - {conn-10018} closed
+2019-03-04 15:03:24.442 [Thread-33] DEBUG druid.sql.Connection - {conn-10019} closed
+2019-03-04 15:03:24.443 [Thread-33] DEBUG druid.sql.Connection - {conn-10020} closed
+2019-03-04 15:03:24.443 [Thread-33] DEBUG druid.sql.Connection - {conn-10021} closed
+2019-03-04 15:03:24.443 [Thread-33] DEBUG druid.sql.Connection - {conn-10022} closed
+2019-03-04 15:03:24.443 [Thread-33] DEBUG druid.sql.Connection - {conn-10023} closed
+2019-03-04 15:03:24.443 [Thread-33] DEBUG druid.sql.Connection - {conn-10024} closed
+2019-03-04 15:03:24.444 [Thread-33] DEBUG druid.sql.Connection - {conn-10025} closed
+2019-03-04 15:03:24.444 [Thread-33] DEBUG druid.sql.Connection - {conn-10026} closed
+2019-03-04 15:03:24.444 [Thread-33] DEBUG druid.sql.Connection - {conn-10027} closed
+2019-03-04 15:03:24.444 [Thread-33] DEBUG druid.sql.Connection - {conn-10028} closed
+2019-03-04 15:03:24.445 [Thread-33] DEBUG druid.sql.Connection - {conn-10029} closed
+2019-03-04 15:03:24.445 [Thread-33] DEBUG druid.sql.Connection - {conn-10030} closed
+2019-03-04 18:27:49.898 [main] DEBUG druid.sql.Connection - {conn-10001} connected
+2019-03-04 18:27:49.908 [main] DEBUG druid.sql.Connection - {conn-10002} connected
+2019-03-04 18:27:49.919 [main] DEBUG druid.sql.Connection - {conn-10003} connected
+2019-03-04 18:27:49.927 [main] DEBUG druid.sql.Connection - {conn-10004} connected
+2019-03-04 18:27:49.938 [main] DEBUG druid.sql.Connection - {conn-10005} connected
+2019-03-04 18:27:49.949 [main] DEBUG druid.sql.Connection - {conn-10006} connected
+2019-03-04 18:27:49.964 [main] DEBUG druid.sql.Connection - {conn-10007} connected
+2019-03-04 18:27:49.973 [main] DEBUG druid.sql.Connection - {conn-10008} connected
+2019-03-04 18:27:49.991 [main] DEBUG druid.sql.Connection - {conn-10009} connected
+2019-03-04 18:27:50.005 [main] DEBUG druid.sql.Connection - {conn-10010} connected
+2019-03-04 18:27:50.013 [main] DEBUG druid.sql.Connection - {conn-10011} connected
+2019-03-04 18:27:50.024 [main] DEBUG druid.sql.Connection - {conn-10012} connected
+2019-03-04 18:27:50.035 [main] DEBUG druid.sql.Connection - {conn-10013} connected
+2019-03-04 18:27:50.043 [main] DEBUG druid.sql.Connection - {conn-10014} connected
+2019-03-04 18:27:50.050 [main] DEBUG druid.sql.Connection - {conn-10015} connected
+2019-03-04 18:27:50.057 [main] DEBUG druid.sql.Connection - {conn-10016} connected
+2019-03-04 18:27:50.064 [main] DEBUG druid.sql.Connection - {conn-10017} connected
+2019-03-04 18:27:50.072 [main] DEBUG druid.sql.Connection - {conn-10018} connected
+2019-03-04 18:27:50.082 [main] DEBUG druid.sql.Connection - {conn-10019} connected
+2019-03-04 18:27:50.087 [main] DEBUG druid.sql.Connection - {conn-10020} connected
+2019-03-04 18:27:50.095 [main] DEBUG druid.sql.Connection - {conn-10021} connected
+2019-03-04 18:27:50.105 [main] DEBUG druid.sql.Connection - {conn-10022} connected
+2019-03-04 18:27:50.109 [main] DEBUG druid.sql.Connection - {conn-10023} connected
+2019-03-04 18:27:50.117 [main] DEBUG druid.sql.Connection - {conn-10024} connected
+2019-03-04 18:27:50.123 [main] DEBUG druid.sql.Connection - {conn-10025} connected
+2019-03-04 18:27:50.129 [main] DEBUG druid.sql.Connection - {conn-10026} connected
+2019-03-04 18:27:50.135 [main] DEBUG druid.sql.Connection - {conn-10027} connected
+2019-03-04 18:27:50.142 [main] DEBUG druid.sql.Connection - {conn-10028} connected
+2019-03-04 18:27:50.149 [main] DEBUG druid.sql.Connection - {conn-10029} connected
+2019-03-04 18:27:50.156 [main] DEBUG druid.sql.Connection - {conn-10030} connected
+2019-03-04 18:27:50.292 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:27:50.295 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:27:50.308 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:27:50.313 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:27:51.083 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:27:51.170 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:27:52.284 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:27:52.285 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:31:32.356 [Thread-28] DEBUG druid.sql.Connection - {conn-10001} closed
+2019-03-04 18:31:32.360 [Thread-28] DEBUG druid.sql.Connection - {conn-10002} closed
+2019-03-04 18:31:32.360 [Thread-28] DEBUG druid.sql.Connection - {conn-10003} closed
+2019-03-04 18:31:32.363 [Thread-28] DEBUG druid.sql.Connection - {conn-10004} closed
+2019-03-04 18:31:32.366 [Thread-28] DEBUG druid.sql.Connection - {conn-10005} closed
+2019-03-04 18:31:32.370 [Thread-28] DEBUG druid.sql.Connection - {conn-10006} closed
+2019-03-04 18:31:32.371 [Thread-28] DEBUG druid.sql.Connection - {conn-10007} closed
+2019-03-04 18:31:32.373 [Thread-28] DEBUG druid.sql.Connection - {conn-10008} closed
+2019-03-04 18:31:32.375 [Thread-28] DEBUG druid.sql.Connection - {conn-10009} closed
+2019-03-04 18:31:32.375 [Thread-28] DEBUG druid.sql.Connection - {conn-10010} closed
+2019-03-04 18:31:32.376 [Thread-28] DEBUG druid.sql.Connection - {conn-10011} closed
+2019-03-04 18:31:32.377 [Thread-28] DEBUG druid.sql.Connection - {conn-10012} closed
+2019-03-04 18:31:32.380 [Thread-28] DEBUG druid.sql.Connection - {conn-10013} closed
+2019-03-04 18:31:32.383 [Thread-28] DEBUG druid.sql.Connection - {conn-10014} closed
+2019-03-04 18:31:32.387 [Thread-28] DEBUG druid.sql.Connection - {conn-10015} closed
+2019-03-04 18:31:32.391 [Thread-28] DEBUG druid.sql.Connection - {conn-10016} closed
+2019-03-04 18:31:32.395 [Thread-28] DEBUG druid.sql.Connection - {conn-10017} closed
+2019-03-04 18:31:32.396 [Thread-28] DEBUG druid.sql.Connection - {conn-10018} closed
+2019-03-04 18:31:32.399 [Thread-28] DEBUG druid.sql.Connection - {conn-10019} closed
+2019-03-04 18:31:32.403 [Thread-28] DEBUG druid.sql.Connection - {conn-10020} closed
+2019-03-04 18:31:32.403 [Thread-28] DEBUG druid.sql.Connection - {conn-10021} closed
+2019-03-04 18:31:32.404 [Thread-28] DEBUG druid.sql.Connection - {conn-10022} closed
+2019-03-04 18:31:32.404 [Thread-28] DEBUG druid.sql.Connection - {conn-10023} closed
+2019-03-04 18:31:32.404 [Thread-28] DEBUG druid.sql.Connection - {conn-10024} closed
+2019-03-04 18:31:32.404 [Thread-28] DEBUG druid.sql.Connection - {conn-10025} closed
+2019-03-04 18:31:32.404 [Thread-28] DEBUG druid.sql.Connection - {conn-10026} closed
+2019-03-04 18:31:32.404 [Thread-28] DEBUG druid.sql.Connection - {conn-10027} closed
+2019-03-04 18:31:32.404 [Thread-28] DEBUG druid.sql.Connection - {conn-10028} closed
+2019-03-04 18:31:32.405 [Thread-28] DEBUG druid.sql.Connection - {conn-10029} closed
+2019-03-04 18:31:32.405 [Thread-28] DEBUG druid.sql.Connection - {conn-10030} closed
+2019-03-04 18:31:47.510 [main] DEBUG druid.sql.Connection - {conn-10001} connected
+2019-03-04 18:31:47.519 [main] DEBUG druid.sql.Connection - {conn-10002} connected
+2019-03-04 18:31:47.526 [main] DEBUG druid.sql.Connection - {conn-10003} connected
+2019-03-04 18:31:47.533 [main] DEBUG druid.sql.Connection - {conn-10004} connected
+2019-03-04 18:31:47.539 [main] DEBUG druid.sql.Connection - {conn-10005} connected
+2019-03-04 18:31:47.547 [main] DEBUG druid.sql.Connection - {conn-10006} connected
+2019-03-04 18:31:47.556 [main] DEBUG druid.sql.Connection - {conn-10007} connected
+2019-03-04 18:31:47.562 [main] DEBUG druid.sql.Connection - {conn-10008} connected
+2019-03-04 18:31:47.568 [main] DEBUG druid.sql.Connection - {conn-10009} connected
+2019-03-04 18:31:47.572 [main] DEBUG druid.sql.Connection - {conn-10010} connected
+2019-03-04 18:31:47.578 [main] DEBUG druid.sql.Connection - {conn-10011} connected
+2019-03-04 18:31:47.585 [main] DEBUG druid.sql.Connection - {conn-10012} connected
+2019-03-04 18:31:47.594 [main] DEBUG druid.sql.Connection - {conn-10013} connected
+2019-03-04 18:31:47.598 [main] DEBUG druid.sql.Connection - {conn-10014} connected
+2019-03-04 18:31:47.602 [main] DEBUG druid.sql.Connection - {conn-10015} connected
+2019-03-04 18:31:47.609 [main] DEBUG druid.sql.Connection - {conn-10016} connected
+2019-03-04 18:31:47.615 [main] DEBUG druid.sql.Connection - {conn-10017} connected
+2019-03-04 18:31:47.620 [main] DEBUG druid.sql.Connection - {conn-10018} connected
+2019-03-04 18:31:47.632 [main] DEBUG druid.sql.Connection - {conn-10019} connected
+2019-03-04 18:31:47.639 [main] DEBUG druid.sql.Connection - {conn-10020} connected
+2019-03-04 18:31:47.645 [main] DEBUG druid.sql.Connection - {conn-10021} connected
+2019-03-04 18:31:47.652 [main] DEBUG druid.sql.Connection - {conn-10022} connected
+2019-03-04 18:31:47.657 [main] DEBUG druid.sql.Connection - {conn-10023} connected
+2019-03-04 18:31:47.663 [main] DEBUG druid.sql.Connection - {conn-10024} connected
+2019-03-04 18:31:47.667 [main] DEBUG druid.sql.Connection - {conn-10025} connected
+2019-03-04 18:31:47.672 [main] DEBUG druid.sql.Connection - {conn-10026} connected
+2019-03-04 18:31:47.678 [main] DEBUG druid.sql.Connection - {conn-10027} connected
+2019-03-04 18:31:47.684 [main] DEBUG druid.sql.Connection - {conn-10028} connected
+2019-03-04 18:31:47.694 [main] DEBUG druid.sql.Connection - {conn-10029} connected
+2019-03-04 18:31:47.701 [main] DEBUG druid.sql.Connection - {conn-10030} connected
+2019-03-04 18:31:47.808 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:31:47.810 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:31:47.820 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:31:47.823 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:31:48.168 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:31:48.229 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:31:48.941 [main] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:31:48.942 [main] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:32:15.818 [http-nio-8080-exec-5] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:32:15.840 [http-nio-8080-exec-5] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000} created. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 18:32:15.855 [http-nio-8080-exec-5] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000} Parameters : [user]
+2019-03-04 18:32:15.855 [http-nio-8080-exec-5] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000} Types : [VARCHAR]
+2019-03-04 18:32:15.874 [http-nio-8080-exec-5] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000, rs-50000} query executed. 22.025428 millis. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 18:32:15.900 [http-nio-8080-exec-5] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:32:16.005 [http-nio-8080-exec-5] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:32:16.005 [http-nio-8080-exec-5] DEBUG druid.sql.Statement - {conn-10030, pstmt-20001} created. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 18:32:16.005 [http-nio-8080-exec-5] DEBUG druid.sql.Statement - {conn-10030, pstmt-20001} Parameters : [user]
+2019-03-04 18:32:16.005 [http-nio-8080-exec-5] DEBUG druid.sql.Statement - {conn-10030, pstmt-20001} Types : [VARCHAR]
+2019-03-04 18:32:16.005 [http-nio-8080-exec-5] DEBUG druid.sql.Statement - {conn-10030, pstmt-20001, rs-50001} query executed. 0.633844 millis. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 18:32:16.006 [http-nio-8080-exec-5] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:34:15.825 [http-nio-8080-exec-10] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:34:15.827 [http-nio-8080-exec-10] DEBUG druid.sql.Statement - {conn-10030, pstmt-20002} created. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 18:34:15.828 [http-nio-8080-exec-10] DEBUG druid.sql.Statement - {conn-10030, pstmt-20002} Parameters : [user]
+2019-03-04 18:34:15.828 [http-nio-8080-exec-10] DEBUG druid.sql.Statement - {conn-10030, pstmt-20002} Types : [VARCHAR]
+2019-03-04 18:34:15.831 [http-nio-8080-exec-10] DEBUG druid.sql.Statement - {conn-10030, pstmt-20002, rs-50002} query executed. 2.646728 millis. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 18:34:15.833 [http-nio-8080-exec-10] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 18:34:15.934 [http-nio-8080-exec-10] DEBUG druid.sql.Connection - {conn-10030} pool-connect
+2019-03-04 18:34:15.934 [http-nio-8080-exec-10] DEBUG druid.sql.Statement - {conn-10030, pstmt-20003} created. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 18:34:15.934 [http-nio-8080-exec-10] DEBUG druid.sql.Statement - {conn-10030, pstmt-20003} Parameters : [user]
+2019-03-04 18:34:15.934 [http-nio-8080-exec-10] DEBUG druid.sql.Statement - {conn-10030, pstmt-20003} Types : [VARCHAR]
+2019-03-04 18:34:15.935 [http-nio-8080-exec-10] DEBUG druid.sql.Statement - {conn-10030, pstmt-20003, rs-50003} query executed. 0.656959 millis. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
+2019-03-04 18:34:15.936 [http-nio-8080-exec-10] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-03-04 19:01:47.926 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10001} closed
+2019-03-04 19:01:47.928 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10002} closed
+2019-03-04 19:01:47.930 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10003} closed
+2019-03-04 19:01:47.931 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10004} closed
+2019-03-04 19:01:47.931 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10005} closed
+2019-03-04 19:01:47.932 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10006} closed
+2019-03-04 19:01:47.933 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10007} closed
+2019-03-04 19:01:47.939 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10008} closed
+2019-03-04 19:01:47.940 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10009} closed
+2019-03-04 19:01:47.941 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10010} closed
+2019-03-04 19:01:47.942 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10011} closed
+2019-03-04 19:01:47.948 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10012} closed
+2019-03-04 19:01:47.951 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10013} closed
+2019-03-04 19:01:47.952 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10014} closed
+2019-03-04 19:01:47.953 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10015} closed
+2019-03-04 19:01:47.953 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10016} closed
+2019-03-04 19:01:47.954 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10017} closed
+2019-03-04 19:01:47.955 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10018} closed
+2019-03-04 19:01:47.956 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10019} closed
+2019-03-04 19:01:47.956 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10020} closed
+2019-03-04 19:01:47.957 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10021} closed
+2019-03-04 19:01:47.957 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10022} closed
+2019-03-04 19:01:47.957 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10023} closed
+2019-03-04 19:01:47.957 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10024} closed
+2019-03-04 19:01:47.959 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10025} closed
+2019-03-04 19:01:47.959 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10026} closed
+2019-03-04 19:01:47.960 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10027} closed
+2019-03-04 19:01:47.961 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10028} closed
+2019-03-04 19:01:47.961 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10029} closed
+2019-03-04 19:04:47.973 [Druid-ConnectionPool-Destroy-475157807] DEBUG druid.sql.Connection - {conn-10030} closed

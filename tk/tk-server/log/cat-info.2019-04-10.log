@@ -1,0 +1,508 @@
+Starting TkServerApplicationTests on baron.local with PID 25145 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started TkServerApplicationTests in 12.005 seconds (JVM running for 14.888)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting TkServerApplicationTests on baron.local with PID 25155 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 120ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started TkServerApplicationTests in 12.509 seconds (JVM running for 14.852)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting TkServerApplicationTests on baron.local with PID 25164 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 89ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started TkServerApplicationTests in 11.978 seconds (JVM running for 14.33)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting TkServerApplicationTests on baron.local with PID 25169 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 93ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started TkServerApplicationTests in 12.569 seconds (JVM running for 14.985)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting TkServerApplicationTests on baron.local with PID 25182 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 209ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started TkServerApplicationTests in 14.846 seconds (JVM running for 18.632)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting TkServerApplicationTests on baron.local with PID 25192 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 76ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started TkServerApplicationTests in 11.796 seconds (JVM running for 14.181)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25358 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 91ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sendMessage': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'tk.email.url' in value "${tk.email.url}"
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting emailTest on baron.local with PID 25365 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 86ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 10.884 seconds (JVM running for 13.839)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25373 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 106ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 11.077 seconds (JVM running for 14.087)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25417 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 80ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 12.211 seconds (JVM running for 16.543)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25437 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 165ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 14.098 seconds (JVM running for 17.397)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25510 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 106ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 12.52 seconds (JVM running for 15.693)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25525 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 107ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 15.414 seconds (JVM running for 18.681)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25538 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 107ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 15.34 seconds (JVM running for 18.713)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25551 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 75ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 13.566 seconds (JVM running for 16.684)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25556 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 72ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 10.863 seconds (JVM running for 14.437)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25565 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 72ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 10.975 seconds (JVM running for 13.788)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 25576 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 106ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 12.538 seconds (JVM running for 15.421)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26266 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Autowired annotation is not supported on static methods: public static void com.tk.monitor.tkserver.util.SendMessage.setSecret(java.lang.String)
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 11.597 seconds (JVM running for 14.053)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26276 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 89ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Autowired annotation is not supported on static methods: public static void com.tk.monitor.tkserver.util.SendMessage.setSecret(java.lang.String)
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 12.038 seconds (JVM running for 15.184)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26322 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 85ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Autowired annotation is not supported on static methods: public static void com.tk.monitor.tkserver.util.SendMessage.setSecret(java.lang.String)
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 12.461 seconds (JVM running for 14.78)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26326 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 130ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Autowired annotation is not supported on static methods: public static void com.tk.monitor.tkserver.util.SendMessage.setSecret(java.lang.String)
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 11.089 seconds (JVM running for 13.625)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26330 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 273ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Autowired annotation is not supported on static methods: public static void com.tk.monitor.tkserver.util.SendMessage.setSecret(java.lang.String)
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 11.657 seconds (JVM running for 15.134)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26340 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 101ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Autowired annotation is not supported on static methods: public static void com.tk.monitor.tkserver.util.SendMessage.setSecret(java.lang.String)
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 13.348 seconds (JVM running for 16.496)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26351 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 75ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 9.771 seconds (JVM running for 14.086)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26397 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 360ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 12.38 seconds (JVM running for 15.905)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26561 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 129ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 15.693 seconds (JVM running for 19.071)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 26567 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 69ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 9.68 seconds (JVM running for 12.305)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'

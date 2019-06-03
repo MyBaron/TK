@@ -1726,3 +1726,33 @@
 2019-02-27 20:29:38.313 [http-nio-8080-exec-1] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000} Types : [VARCHAR]
 2019-02-27 20:29:38.318 [http-nio-8080-exec-1] DEBUG druid.sql.Statement - {conn-10030, pstmt-20000, rs-50000} query executed. 6.842791 millis. select monuser0_.id as id1_3_, monuser0_.account as account2_3_, monuser0_.money as money3_3_, monuser0_.password as password4_3_, monuser0_.roles as roles5_3_, monuser0_.user_name as user_nam6_3_ from mon_user monuser0_ where monuser0_.account=?
 2019-02-27 20:29:38.340 [http-nio-8080-exec-1] DEBUG druid.sql.Connection - {conn-10030} pool-recycle
+2019-02-27 23:47:06.441 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10001} closed
+2019-02-27 23:47:06.481 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10002} closed
+2019-02-27 23:47:06.485 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10003} closed
+2019-02-27 23:47:06.489 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10004} closed
+2019-02-27 23:47:06.497 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10005} closed
+2019-02-27 23:47:06.502 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10006} closed
+2019-02-27 23:47:06.504 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10007} closed
+2019-02-27 23:47:06.506 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10008} closed
+2019-02-27 23:47:06.508 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10009} closed
+2019-02-27 23:47:06.509 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10010} closed
+2019-02-27 23:47:06.510 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10011} closed
+2019-02-27 23:47:06.511 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10012} closed
+2019-02-27 23:47:06.515 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10013} closed
+2019-02-27 23:47:06.525 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10014} closed
+2019-02-27 23:47:06.531 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10015} closed
+2019-02-27 23:47:06.532 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10016} closed
+2019-02-27 23:47:06.534 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10017} closed
+2019-02-27 23:47:06.535 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10018} closed
+2019-02-27 23:47:06.543 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10019} closed
+2019-02-27 23:47:06.544 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10020} closed
+2019-02-27 23:47:06.545 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10021} closed
+2019-02-27 23:47:06.545 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10022} closed
+2019-02-27 23:47:06.546 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10023} closed
+2019-02-27 23:47:06.546 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10024} closed
+2019-02-27 23:47:06.546 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10025} closed
+2019-02-27 23:47:06.547 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10026} closed
+2019-02-27 23:47:06.547 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10027} closed
+2019-02-27 23:47:06.547 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10028} closed
+2019-02-27 23:47:06.547 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10029} closed
+2019-02-27 23:47:06.547 [Druid-ConnectionPool-Destroy-825605925] DEBUG druid.sql.Connection - {conn-10030} closed

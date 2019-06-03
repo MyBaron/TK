@@ -1,0 +1,84 @@
+Starting emailTest on baron.local with PID 48493 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 85ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 12.479 seconds (JVM running for 15.057)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 48733 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 70ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es 建立连接：address=localhost，port=9300，cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 11.56 seconds (JVM running for 14.204)
+开始启动netty服务器，端口：9999
+阻塞获取超时的客户端
+netty服务器启动完成
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 49129 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es ?????address=localhost?port=9300?cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 10.548 seconds (JVM running for 12.743)
+????netty???????9999
+??????????
+netty???????
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tk.monitor.tkserver.TkServerApplicationTests], using SpringBootContextLoader
+Could not detect default resource locations for test class [com.tk.monitor.tkserver.TkServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+Could not detect default configuration classes for test class [com.tk.monitor.tkserver.TkServerApplicationTests]: TkServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+Found @SpringBootConfiguration com.tk.monitor.tkserver.TkServerApplication for test class com.tk.monitor.tkserver.TkServerApplicationTests
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6a4a2090, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@778c2e7c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b70fa38, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45c423b3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7e31d53b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@68d8eb4f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@64757d56, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4813d0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@702096ef, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f0d8937, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@105dc04d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@504b8705]
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting emailTest on baron.local with PID 49153 (started by baron in /Users/baron/GitHub/TK/tk/tk-server)
+No active profile set, falling back to default profiles: default
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+no modules loaded
+loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+es ?????address=localhost?port=9300?cluster_name=baron
+Initializing ExecutorService 'applicationTaskExecutor'
+Started emailTest in 6.971 seconds (JVM running for 8.188)
+????netty???????9999
+??????????
+netty???????
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tk.monitor.tkserver.TkServerApplicationTests], using SpringBootContextLoader
+Could not detect default resource locations for test class [com.tk.monitor.tkserver.TkServerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+Could not detect default configuration classes for test class [com.tk.monitor.tkserver.TkServerApplicationTests]: TkServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+Found @SpringBootConfiguration com.tk.monitor.tkserver.TkServerApplication for test class com.tk.monitor.tkserver.TkServerApplicationTests
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@58e02359, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@74fc3fc7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@491893f8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1f408ab6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@46e388ec, org.springframework.test.context.transaction.TransactionalTestExecutionListener@53f495f0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5efe5b25, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@45707f76, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1f0e2bdc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@682266d8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@44a93f8a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@26463a6]
+Shutting down ExecutorService 'applicationTaskExecutor'

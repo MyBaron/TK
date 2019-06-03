@@ -80,7 +80,7 @@ public class ClientInfo  implements Delayed {
         //一分钟的过期时间
         Calendar calendar = new GregorianCalendar();
         calendar.setTime(this.breakTime);
-        calendar.add(Calendar.MINUTE,1);
+        calendar.add(Calendar.SECOND,4);
         long timeInMillis = calendar.getTimeInMillis();
         return unit.convert(timeInMillis-new Date().getTime(),TimeUnit.MILLISECONDS);
     }

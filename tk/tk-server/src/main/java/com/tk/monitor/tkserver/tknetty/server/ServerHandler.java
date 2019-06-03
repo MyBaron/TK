@@ -28,7 +28,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<MessageVO.Message
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, MessageVO.Message msg) throws Exception {
         if (MessageVO.Type.heart.equals(msg.getType())) {
-            System.out.println("this is heart");
+            log.info("this is heart");
             prient(msg);
         }else if(MessageVO.Type.client.equals(msg.getType())){
             createClientInfo(msg, ctx.channel());
@@ -92,7 +92,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<MessageVO.Message
                 msg.getBody().getContentList();
         for (MessageVO.Body.Content c : contentList) {
             try {
-                System.out.println(new String(c.toByteArray(),"utf-8"));
+                log.info(new String(c.toByteArray(),"utf-8"));
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
@@ -117,7 +117,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<MessageVO.Message
                 //进行channel关闭
                 ctx.channel().close();
             }
-            System.out.println( ctx.channel().remoteAddress()+"超时类型：" + type);
+            log.info( ctx.channel().remoteAddress()+"超时类型：" + type);
         }else {
             super.userEventTriggered(ctx, evt);
         }

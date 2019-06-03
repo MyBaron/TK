@@ -87,7 +87,7 @@ public class NettyClient {
             URLs[6] = "good/checkGoodAll.do";
             URLs[7] = "good/createAndPlay.do";
             Random random = new Random();
-            for (int i=0;i<1000;i++) {
+            for (int i=0;i<100;i++) {
                 int number = random.nextInt(5)+2;
                 Transaction tran = TK.newTransaction("URL", URLs[5]);
                 try {

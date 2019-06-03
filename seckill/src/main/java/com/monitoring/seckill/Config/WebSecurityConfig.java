@@ -90,6 +90,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
+
+
     //无加密
 //    @Bean
 //    public  NoOpPasswordEncoder passwordEncoder() {
@@ -125,4 +127,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 ("/user/authentication/require");
         return loginUrlAuthenticationEntryPoint;
     }
+
+
+
 }
