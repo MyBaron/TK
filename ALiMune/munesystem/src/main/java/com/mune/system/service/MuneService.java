@@ -38,7 +38,6 @@ public class MuneService {
     }
 
     public void save(Mune mune){
-        mune.setPrice(mune.getPrice()*100);
         muneDao.save(mune);
     }
 

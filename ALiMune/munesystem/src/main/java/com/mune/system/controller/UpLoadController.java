@@ -22,7 +22,7 @@ public class UpLoadController {
     @Value("${upload.img.resourceLocation}")
     private String resourceLocation;
 
-    @PostMapping(value = "/img", produces = "application/json; charset=utf-8")
+    @PostMapping(value = {"/img","/img/"}, produces = "application/json; charset=utf-8")
     public Result imgUpdate(@RequestParam(value = "file") MultipartFile file) {
         Map<String, String> result = new HashMap<>();
         if (file.isEmpty()) {

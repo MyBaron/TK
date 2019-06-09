@@ -9,13 +9,13 @@
       <el-form-item label="价格" prop="price">
         <el-col :span="6">
           <!-- .number 是数字类型 -->
-          <el-input v-model.number="muneData.price"></el-input>
+          <el-input v-model.number="muneData.price" type="number"></el-input>
         </el-col>
       </el-form-item>
       <el-form-item label="图片">
         <el-upload
           class="avatar-uploader"
-          action="http://localhost:8080/upload/img"
+          :action="uploadUrl"
           :show-file-list="false"
           :auto-upload="true"
           :on-success="handleAvatarSuccess"
@@ -34,7 +34,12 @@
 </template>
 
 <script >
-import { post} from "@/utils/http.js";
+import {
+  getMuneDataById,
+  saveMuneData,
+  uploadMuneImageUrl,
+  muneImageUrl
+} from "@/api/mune.js";
 export default {
   data() {
     return {
@@ -43,6 +48,7 @@ export default {
         muneName: "",
         imgPath: ""
       },
+      uploadUrl: "",
       imageUrl: "",
       rules: {
         muneName: [{ required: true, message: "请输入菜名", trigger: "blur" }],
@@ -77,10 +83,12 @@ export default {
     onSubmit() {
       this.$refs["form"].validate(valid => {
         if (valid) {
-          post(process.env.VUE_APP_PATH + "/mune", this.muneData).then(res => {
+          console.log(this.muneData.price);
+          this.muneData.price = this.muneData.price * 100;
+          saveMuneData(this.muneData).then(res => {
             if (res.data.code == 1) {
               this.$message.success("添加成功");
-              this.$router.push('/mune')
+              this.$router.push("/mune");
             } else {
               this.$message.error("添加失败！！");
             }
@@ -88,6 +96,18 @@ export default {
         } else {
           return false;
         }
+      });
+    }
+  },
+  created() {
+    this.uploadUrl = uploadMuneImageUrl;
+    let id = this.$route.params.id;
+    if (id) {
+      let response = getMuneDataById({ id: id });
+      response.then(res => {
+        this.muneData = res.data.data;
+        this.muneData.price = Number((this.muneData.price / 100).toFixed(2));
+        this.imageUrl = muneImageUrl(this.muneData.imgPath);
       });
     }
   }

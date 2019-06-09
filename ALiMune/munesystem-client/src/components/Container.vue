@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-menu
+    <!-- <el-menu
       :default-active="$route.path"
       class="el-menu-demo"
       mode="horizontal"
@@ -8,7 +8,7 @@
     >
       <el-menu-item index="/">下单</el-menu-item>
       <el-menu-item index="/order">查询订单</el-menu-item>
-    </el-menu>
+    </el-menu> -->
     <el-main>
       <router-view></router-view>
     </el-main>
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import mune from "./Mune.vue";
+// import mune from "./Mune.vue";
 export default {
   data() {
     return {
@@ -29,9 +29,9 @@ export default {
       console.log(key, keyPath);
     }
   },
-  components: {
-    mune: mune
-  }
+  // components: {
+  //   mune: mune
+  // }
 };
 </script>
 

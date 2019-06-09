@@ -42,7 +42,7 @@ public class OrderController {
     }
 
 
-    @GetMapping("/order_deatil")
+    @GetMapping({"/order_deatil","/order_deatil/"})
     public Map<Object,Object> getOrderDetail(@RequestParam("id") long id){
         List<OrderDetail> orderDetail = orderDetailService.getOrderDetail(id);
         Map<Object, Object> result = new HashMap<>();

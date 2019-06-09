@@ -16,6 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class OrderService {
@@ -28,6 +29,9 @@ public class OrderService {
 
     public void save(OrderDataDTO orderDataDTO){
         List<OrderDTO> orderData = orderDataDTO.getOrderData();
+        if (Objects.isNull(orderData)||orderData.isEmpty()) {
+            return;
+        }
         int table = orderDataDTO.getTable();
         MuneOrder muneOrder = new MuneOrder();
 

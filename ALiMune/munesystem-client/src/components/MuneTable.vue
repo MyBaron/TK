@@ -1,18 +1,17 @@
 <template>
   <div>
     <el-table :data="tableData" style="width: 100%">
-      <el-table-column label="菜名" width="180">
+      <el-table-column label="图片" width="180">
         <template slot-scope="scope">
-          <!-- <i class="el-icon-time"></i> -->
-          <span style="margin-left: 10px">{{ scope.row.muneName }}</span>
+          <el-image
+            style="width: 100px; height: 100px"
+            :src="imgFormatter(scope.row.imgPath)"
+            fit="fill"
+          ></el-image>
         </template>
       </el-table-column>
-      <el-table-column label="单价" width="180">
-        <template slot-scope="scope">
-          <!-- <i class="el-icon-time"></i> -->
-          <span style="margin-left: 10px">{{ scope.row.price}}</span>
-        </template>
-      </el-table-column>
+      <el-table-column label="菜名" width="180" prop="muneName"></el-table-column>
+      <el-table-column label="单价" width="180" prop="price" :formatter="priceFormatter"></el-table-column>
       <el-table-column label="数量">
         <!-- 数量 -->
         <template slot-scope="scope">
@@ -33,25 +32,12 @@
 
 
 <script>
-import { get } from "@/utils/http.js";
+import { getMuneData } from "@/api/mune.js";
 export default {
   name: "MuneTable",
   data() {
     return {
-      tableData: [
-        // {
-        //   id: "0",
-        //   muneName: "酸甜排骨",
-        //   price: "25元",
-        //   number: ""
-        // },
-        // {
-        //   id: "1",
-        //   muneName: "烤鱼",
-        //   price: "80元",
-        //   number: ""
-        // }
-      ],
+      tableData: [],
       num: []
     };
   },
@@ -71,15 +57,18 @@ export default {
     },
     getList() {
       const mythis = this;
-      var response = get("http://localhost:8080/mune/");
+      var response = getMuneData();
       response.then(response => {
         const MuneData = response.data.list;
-        MuneData.forEach(element => {
-          element.price = (element.price / 100).toFixed(2);
-        });
         mythis.tableData = MuneData;
         mythis.num = Array(MuneData.length).fill(0);
       });
+    },
+    priceFormatter(row, column, cellValue) {
+      return (cellValue / 100).toFixed(2) + "元";
+    },
+    imgFormatter(cellValue) {
+      return process.env.VUE_APP_IMG_PATH + cellValue;
     }
   },
   mounted() {

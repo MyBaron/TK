@@ -10,7 +10,7 @@
 </template>
 
 
-<<script>
+<script>
 export default {
     props:['detailList'],
     methods: {
@@ -20,7 +20,7 @@ export default {
       return (price / 100).toFixed(2) + "元";
     },
     //总价
-    formatTotal: function(row, column) {
+    formatTotal: function(row) {
       let price = row['price'];
       let sum = row['sum'];
       let total=price*sum;

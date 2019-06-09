@@ -23,8 +23,9 @@
 </template>
 
 <script>
-import { post } from "@/utils/http.js";
+import { saveOrderData } from "@/api/order.js";
 import MuneTable from "./MuneTable.vue";
+import { initWebSocket } from "@/utils/webSocket.js";
 export default {
   name: "Mune",
   data() {
@@ -40,14 +41,35 @@ export default {
       alterOrderMgs: ""
     };
   },
+  created() {
+    this.init();
+  },
   methods: {
-    onSubmit() {
-      console.log("submit!");
+    init() {
+      this.websock = initWebSocket();
+      this.websock.onopen = this.websocketonopen;
+      this.websock.onerror = this.websocketonerror;
+      this.websock.onmessage = this.websocketonmessage;
+      this.websock.onclose = this.websocketclose;
     },
+    websocketonopen: function() {
+      console.log("WebSocket连接成功");
+    },
+    websocketonerror: function(e) {
+      console.log("WebSocket连接发生错误", e);
+    },
+    websocketonmessage: function(e) {
+      var da = JSON.parse(e.data);
+      console.log(da);
+      this.message = da;
+    },
+    websocketclose: function(e) {
+      console.log("connection closed (" + e.code + ")");
+    },
+    onSubmit() {},
     getSum(total, muneJson) {
-      console.log("传递的价格：" + total);
       var arr = JSON.parse(muneJson);
-      this.sum = total;
+      this.sum = (total/100).toFixed(2);
       this.orderData = [];
       this.alterOrderMgs = "";
       //遍历获取下单
@@ -60,6 +82,7 @@ export default {
           this.alterOrderMgs += "<p>" + obj.muneName + "     " + sum + "份</p>";
         }
       }
+      this.alterOrderMgs += "<p>" + this.sumStr + "</p>";
     },
     open(formInline) {
       this.$refs[formInline].validate(valid => {
@@ -80,21 +103,17 @@ export default {
         }
       )
         .then(() => {
-          console.log("点击了确认");
-          // var orderData = JSON.stringify(this.orderData);
           var mydata = this.orderData;
           var orderData = new Object();
           orderData.orderData = mydata;
           orderData.table = this.formInline.sitNumber;
-          console.log(orderData);
-          post("http://localhost:8080/order/add", orderData);
+          saveOrderData(orderData);
           this.$message({
             type: "success",
             message: "结账成功!"
           });
         })
-        .catch(error => {
-          console.log(error);
+        .catch(() => {
           this.$message({
             type: "info",
             message: "已取消下单"
@@ -103,7 +122,7 @@ export default {
     }
   },
   components: {
-    MuneTable: MuneTable,
+    MuneTable: MuneTable
   },
   computed: {
     sumStr: function() {

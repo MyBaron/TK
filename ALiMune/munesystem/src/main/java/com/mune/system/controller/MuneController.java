@@ -21,12 +21,18 @@ public class MuneController   {
     @Autowired
     private MuneService muneService;
 
-    @GetMapping("/")
+    @GetMapping({"/",""})
     public Map<Object, Object> getMune() {
         Map<Object, Object> map = new HashMap<>();
         List<Mune> list=muneService.getAllMune();
         map.put("list", list);
         return map;
+    }
+
+    @GetMapping({"/{id}","/{id}/"})
+    public Result getMuneById(@PathVariable int id) {
+        Mune mune = muneService.getMuneById(Long.valueOf(id)).get();
+        return ResultVO.success(mune);
     }
 
     @PostMapping({"/", ""})
@@ -35,7 +41,7 @@ public class MuneController   {
         return ResultVO.success();
     }
 
-    @DeleteMapping({"/{id}",""})
+    @DeleteMapping({"/{id}","/{id}/"})
     public Result delete(@PathVariable long id) {
         muneService.delete(id);
         return ResultVO.success();

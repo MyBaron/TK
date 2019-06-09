@@ -1,29 +1,10 @@
-# element-demo
 
-## Project setup
-```
-yarn install
-```
+# ALi菜单管理系统-前端
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## 组织结构
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## 技术选型
 
-### Run your tests
-```
-yarn run test
-```
+## 技术解析
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [HTTP请求封装](https://www.jianshu.com/p/00bd5fffb9b2)

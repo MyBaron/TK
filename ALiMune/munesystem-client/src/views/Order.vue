@@ -24,7 +24,7 @@
       </el-row>
     </div>
     <el-table
-      :data="tableData.filter(data => !search || data.name.toLowerCase().includes(search.toLowerCase()))"
+      :data="tableData"
       style="width: 100%"
       @expand-change="enpandChange"
     >
@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import { get } from "@/utils/http.js";
+import { getOrderData,getOrderDetailData } from "@/api/order.js";
 import muneDetail from "@/components/MuneDetail.vue";
 import moment from "moment";
 export default {
@@ -106,7 +106,7 @@ export default {
         date: this.orderDate,
         type: type
       };
-      get("http://localhost:8080/order/", obj).then(res => {
+      getOrderData(obj).then(res => {
         this.tableData = [];
         this.tableData = res.data.content;
         this.page = res.data.page;
@@ -130,26 +130,21 @@ export default {
       return (price / 100).toFixed(2) + "元";
     },
     enpandChange(row, expandedRows) {
-      console.log(row);
-      console.log(expandedRows);
-      console.log("---");
       if (row === expandedRows[0]) {
-        console.log("yes");
         let obj = {
           id: row.orderId
         };
-        get("http://localhost:8080/order/order_deatil", obj).then(res => {
+        getOrderDetailData( obj).then(res => {
           console.log(res.data);
           this.detailList = res.data.detail;
         });
       } else {
         expandedRows.splice(0, 1);
-        console.log("删除了一行");
       }
     }
   },
   mounted() {
-    get("http://localhost:8080/order/").then(response => {
+    getOrderData().then(response => {
       this.tableData = response.data.content;
       this.page = response.data.page;
     });
