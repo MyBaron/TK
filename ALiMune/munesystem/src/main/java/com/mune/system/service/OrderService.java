@@ -7,6 +7,7 @@ import com.mune.system.entity.specification.DateFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
@@ -53,7 +54,8 @@ public class OrderService {
     }
 
     public Page<MuneOrder> getOrder(PageDTO pageDTO, String date,int type) throws ParseException {
-        PageRequest pageRequest = new PageRequest(pageDTO.getPage(), pageDTO.getPageSum());
+        PageRequest pageRequest = new PageRequest(pageDTO.getPage(), pageDTO.isHasPage()?pageDTO.getPageSum():20,
+                Sort.Direction.DESC,"createTime");
         Page pageData;
         if (!StringUtils.isEmpty(date)) {
             pageData = muneOrderDao.findAll(DateFactory.create(type,date), pageRequest);
