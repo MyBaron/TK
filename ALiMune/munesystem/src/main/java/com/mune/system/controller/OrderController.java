@@ -1,16 +1,17 @@
 package com.mune.system.controller;
 
 
+import com.mune.system.config.code.WebSocketEnum;
 import com.mune.system.entity.*;
 import com.mune.system.entity.dto.PageDTO;
 import com.mune.system.service.OrderDetailService;
 import com.mune.system.service.OrderService;
 import com.mune.system.utils.ResultVO;
+import com.mune.system.websocket.WebSocket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.print.Pageable;
 import java.text.ParseException;
 import java.util.HashMap;
 import java.util.List;
@@ -29,6 +30,7 @@ public class OrderController {
     @PostMapping(value = {"/",""})
     public Result addOrder(@RequestBody OrderDataDTO orderdata) {
         orderService.save(orderdata);
+        WebSocket.sendAllMessage(WebSocketEnum.FLASH_ORDER_LIST.getCode(),"订单数据更新",null);
         return ResultVO.success();
     }
 
@@ -55,7 +57,6 @@ public class OrderController {
         result.put("detail", orderDetail);
         return result;
     }
-
 
 
 }

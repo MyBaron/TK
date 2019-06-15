@@ -30,7 +30,6 @@ public class FindOrderByDate implements Specification<MuneOrder> {
     public Predicate toPredicate(Root<MuneOrder> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
         Path orderDate = root.get("orderDate");
         if (!StringUtils.isEmpty(date)) {
-
             Predicate equal = cb.equal(orderDate.as(String.class),date);
             return equal;
         }

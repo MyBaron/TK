@@ -20,6 +20,22 @@ public class ResultVO {
         return result;
     }
 
+    public static Result  success(int code,String msg,Object data) {
+        Result result = getReult();
+        result.setCode(code);
+        result.setMsg(msg);
+        result.setData(data);
+        return result;
+    }
+
+    public static Result  success(int code,String msg) {
+        Result result = getReult();
+        result.setCode(code);
+        result.setMsg(msg);
+        result.setData(null);
+        return result;
+    }
+
 
     public static Result  success(String msg,Object data) {
         Result result = getReult();

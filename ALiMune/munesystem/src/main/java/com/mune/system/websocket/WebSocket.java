@@ -1,6 +1,8 @@
 package com.mune.system.websocket;
 
 
+import com.mune.system.utils.JsonUtil;
+import com.mune.system.utils.ResultVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -9,6 +11,7 @@ import javax.websocket.OnMessage;
 import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
+import java.util.Map;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 @Component
@@ -20,6 +23,7 @@ public class WebSocket {
     private Session session;
 
     private static CopyOnWriteArraySet<WebSocket> webSockets =new CopyOnWriteArraySet<>();
+    //todo单点发送消息
 
     @OnOpen
     public void onOpen(Session session) {
@@ -40,7 +44,8 @@ public class WebSocket {
     }
 
     // 此为广播消息
-    public static void sendAllMessage(String message) {
+    public static void sendAllMessage(int code,String message,Object data) {
+        message= JsonUtil.obj2jsonByFeatures(ResultVO.success(code,message,data));
         for(WebSocket webSocket : webSockets) {
             log.info("【websocket消息】广播消息:"+message);
             try {
@@ -50,6 +55,7 @@ public class WebSocket {
             }
         }
     }
+
 
 
 
